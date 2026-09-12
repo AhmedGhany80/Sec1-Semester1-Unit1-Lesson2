@@ -32,7 +32,7 @@ module.exports = async (req, res) => {
       .map((item) => `س${item.idx + 1}`)
       .join("، ");
 
-    let text = `📝 نتيجة اختبار أساسيات البرمجة\n`;
+    let text = `📝 نتيجة اختبار الدرس التاني - الصف الأول الثانوي\n`;
     text += `👤 الطالب: ${studentName || "غير مسجل"}\n`;
     text += `✅ الدرجة: ${score} / ${total} (${pct.toFixed(0)}%)\n`;
     text += `🏷️ التقييم: ${gradeLabel}\n`;
